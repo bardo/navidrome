@@ -2,7 +2,7 @@ package taglib
 
 /*
 #cgo pkg-config: taglib
-#cgo LDFLAGS: -lstdc++
+#cgo LDFLAGS: -lstdc++ -lsendfile
 #cgo linux darwin CXXFLAGS: -std=c++11
 #include <stdio.h>
 #include <stdlib.h>
